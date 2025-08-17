@@ -13,27 +13,7 @@ A Spring Boot REST API application that provides weather information and forecas
 
 ## Project Structure
 
-\`\`\`
-src/main/java/com/myfirstwebapp/weather/
-├── Controller/
-│   └── WeatherController.java      # REST API endpoints
-├── Service/
-│   └── WeatherService.java         # Business logic layer
-├── Model/
-│   ├── WeatherDetail.java          # Weather data entity
-│   └── WeatherForecast.java        # Forecast data entity
-├── DTO/
-│   ├── Root.java                   # Main response wrapper
-│   ├── Current.java                # Current weather data
-│   ├── Forecast.java               # Forecast container
-│   ├── Forecastday.java            # Daily forecast data
-│   ├── Location.java               # Location information
-│   ├── Condition.java              # Weather condition details
-│   ├── Day.java                    # Daily weather summary
-│   ├── Hour.java                   # Hourly weather data
-│   └── Astro.java                  # Astronomical data
-└── WeatherApplication.java         # Main Spring Boot application
-\`\`\`
+
 
 ## Prerequisites
 
